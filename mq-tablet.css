@@ -9,7 +9,51 @@
         background-color: #F2F2CD;
         margin: 0 auto;
         padding-top: 20px;
-    }   
+    }
+    .left > img, .right > img {
+        margin: 50px auto;
+    }
+    #lezioni .row>.left, #lezioni .row>.right {
+        width: calc(50% - 20px);
+        margin: auto 10px;
+    }
+    .container.grey {
+        background-color: white;
+    }
+    #steps .row>.left, #steps .row>.central {
+        width: calc(50% - 20px);
+        margin: auto 10px;
+    }
+    #steps .row > .central{
+        padding-top: 70px;
+    }
+    .central h3 {
+        padding-top: 30px;
+    }
+    #steps .row > .right {
+        width: 100%;
+        padding-top: 60px;
+    }
+    #why .row {
+        margin-top: 80px;
+        background-color: #F2F2CD;
+    }
+    #why .row > h1 {
+        padding-top: 50px;
+    }
+    hr {
+        display: none;
+    }
+    #why .row>.first, #why .row>.second {
+        width: calc(50% - 20px);
+        margin: 80px 10px;
+        float: left;
+    }
+    #why .row>.third {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
 }
 
 
