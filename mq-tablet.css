@@ -1,0 +1,15 @@
+@media screen and (min-width: 421px) and (max-width:768px){
+  
+    #lezioni .row {
+        background-color: #F2F2CD;
+        margin: auto;
+        padding: 50px;
+    }
+    #lezioni .row {
+        background-color: #F2F2CD;
+        margin: 0 auto;
+        padding-top: 20px;
+    }   
+}
+
+

@@ -2,16 +2,23 @@
     .row {
         width: 100%;
         margin-top: 20px;
+        padding: 20px 0;
     }
     #lezioni .row>.left, #lezioni .row>.right {
-        width: 100%;    
+        width: 100%;
+        padding: 20px 0;    
+    }
+    .right > img{
+        width: 50%;
+        height: 50%;
+    }
+    .left > img{
+        width: 30%;
+        height: 30%;
     }
     #lezioni .row {
         background-color: #F2F2CD;
         margin: 0 auto;
-    }
-    #lezioni h1 {
-        padding-top: 20px;
     }
     #steps {
         background-color: white;
@@ -27,7 +34,6 @@
     #why .row>.first, #why .row>.second, #why .row>.third {
         width: 95%;
         margin: 25px auto;
-        /* margin: auto; */
     }
     hr {
         border: 1px solid #626262;
